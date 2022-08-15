@@ -1,11 +1,8 @@
+function addingEventListener() {}
+const input = document.querySelector('input');
 
-    
-
-    var el = document.getElementById('input');
-    if(el){
-      el.addEventListener('click', clickAlert, 'true')
-      alert('I was alicked!');
-    };
-    function addingEventListener() {
-    }
-  
+function addingEventListener() {
+}
+    input.addEventListener('pass', function(event) {
+        return "passed"
+    });
